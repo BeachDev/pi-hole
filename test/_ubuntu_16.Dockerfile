@@ -1,4 +1,4 @@
-FROM buildpack-deps:impish-curl
+FROM buildpack-deps:21.10-curl
 
 ENV GITDIR /etc/.pihole
 ENV SCRIPTDIR /opt/pihole
